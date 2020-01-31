@@ -83,4 +83,7 @@ img:hover{
 .conta{
     list-style: none;
 }
-    
+  
+ul,li{
+    text-align: center;
+}
