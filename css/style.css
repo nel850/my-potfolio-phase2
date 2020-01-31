@@ -1,0 +1,86 @@
+body{
+    background-image: url(jpg/IMG-20200118-WAO...);
+    background-color: antiquewhite;
+    font-size: 17px;
+     font-family:  Arial, Helvetica, sans-serif;
+     line-height :1.6em;
+     border-left: 5px red solid;
+     border-right: 5px red solid;
+     border-top:5px red solid;
+     border-bottom:5px red solid;
+     padding: 20px;
+     font-weight: bold;
+     line-height: 28px;
+
+}
+
+h1{
+    text-align: center;
+    style="background-color: Dodgreblue;"
+}
+h3{
+    color: goldenrod;
+}
+
+
+a:hover{
+    color: red;
+}
+a:active{
+    color:green;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border:5px solid #ccc
+    padding: 10px;
+    
+
+}
+#contacts{
+    text-align: center;
+}
+img{
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    background-color: chartreuse;
+    opacity: 1;
+    filter: grayscale(100%);
+
+}
+img:hover{
+    transform: scaleX(-1);
+}
+#nav-menu{
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom :2px solid black
+   
+}
+#nav-menu ul li {
+    display :inline;
+    padding :0 1.5em;
+}
+#nav-menu ul li a {
+    font-weight: bold;
+    color: green;
+
+}
+
+#nav-menu ul li a:hover{
+    color :red;
+
+}
+
+.conta{
+    list-style: none;
+}
+    
